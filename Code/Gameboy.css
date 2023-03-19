@@ -79,7 +79,6 @@ img:hover {
 }
 
 .column {
-  float: left;
   text-align: center;
   place-items: center;
   width: 20%;
@@ -88,10 +87,9 @@ img:hover {
 }
 
 .row {
-  display: table;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   width: 100%;
-  flex-wrap: wrap;
   padding: 10px;
   flex: 50%;
   place-items: center;
